@@ -7,6 +7,7 @@ package com.pro1e.DAO;
 
 import com.pro1e.helper.JDBChelper;
 import duan1.model.NhanVien;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.ResultSet;
@@ -18,7 +19,7 @@ import java.sql.SQLException;
  */
 public class NhanvienDAO implements DAOhelper<NhanVien, Integer> {
 
-    private final String insert_sql = "INSERT INTO NHANVIEN VALUES(?,?,?,?,?,?,?,?)";
+     private final String insert_sql = "INSERT INTO NHANVIEN VALUES(?,?,?,?,?,?,?,?)";
     private final String update_sql = "UPDATE NHANVIEN SET TENNV=?, IDBAN=?, EMAIL=?,SDT=?,SDT=? ,CMT=? ,  MATKHAU=?, HINH=?,QUYEN=? WHERE IDNV=?";
     private final String delete_sql ="delete from NHANVIEN where IDNV =?";
     private final String select_all = "select * from NHANVIEN";
@@ -67,5 +68,8 @@ public class NhanvienDAO implements DAOhelper<NhanVien, Integer> {
             throw new RuntimeException();
         }
     }
-
+    public List<NhanVien> selectByKeyword(String keyword){
+    String sql="SELECT * FROM NHANVIEN WHERE TENNV LIKE ?";
+    return selectbySQL(sql, "%"+keyword+"%");
+ }
 }

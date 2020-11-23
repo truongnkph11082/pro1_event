@@ -13,6 +13,7 @@ import java.sql.PreparedStatement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 /**
  *
  * @author huyNQph11019
@@ -20,12 +21,12 @@ import java.util.logging.Logger;
 public class JDBChelper {
 //    tạo kết nối
 
-    static String sql = "jdbc:sqlserver://localhost:1433;database=BIGCITY";
+    static String sql = "jdbc:sqlserver://localhost:1433;databasename=PRO1_E2";
     static String user = "sa";
-    static String pass = "123123";
+    static String pass = "12345";
     static String dri = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 
-    static {
+ static {
         try {
             Class.forName(dri);
         } catch (ClassNotFoundException e) {

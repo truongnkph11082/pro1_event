@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/huyNQph11019/OneDrive/Documents/NetBeansProjects/PRO1_event/src/duan1/model/MucTieuSK.java</file>
-            <file>file:/C:/Users/huyNQph11019/OneDrive/Documents/NetBeansProjects/PRO1_event/src/com/pro1e/UI/Taosukien.java</file>
-            <file>file:/C:/Users/huyNQph11019/OneDrive/Documents/NetBeansProjects/PRO1_event/src/com/pro1e/UI/MainF.java</file>
-            <file>file:/C:/Users/huyNQph11019/OneDrive/Documents/NetBeansProjects/PRO1_event/src/com/pro1e/UI/chill/functionIcon.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/pro1_event/src/com/pro1e/helper/JDBChelper.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/pro1_event/src/com/pro1e/UI/QLNhanVien.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/pro1_event/src/com/pro1e/UI/a1.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/pro1_event/src/com/pro1e/DAO/DAOhelper.java</file>
+            <file>file:/C:/Users/Admin/Documents/GitHub/pro1_event/src/com/pro1e/DAO/NhanvienDAO.java</file>
         </group>
     </open-files>
 </project-private>

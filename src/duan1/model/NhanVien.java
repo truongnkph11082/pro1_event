@@ -102,11 +102,6 @@ public class NhanVien {
         this.manv = manv;
     }
 
-
-   
-
-    
-
    
    
       
